@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>The dice game</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="headline">
+            <h1>The dice game</h1>
+            <h3>Click to gamble</h3>
+            <button id="btn">Click here</button>
+        </div>
+        <div class="dices">
+            <div class="dice1 dice">
+                <img class="player" name='dice1p' src="./img/Dice-1-b.svg.png" alt="">
+                <img class="player" name='dice2p' src="./img/Dice-2-b.svg.png" alt="">
+                <img class="player" name='dice3p' src="./img/Dice-3-b.svg.png" alt="">
+                <img class="player" name='dice4p' src="./img/Dice-4-b.svg.png" alt="">
+                <img class="player" name='dice5p' src="./img/Dice-5-b.svg.png" alt="">
+                <img class="player" name='dice6p' src="./img/Dice-6-b.svg.png" alt="">
+            </div>
+            <div class="dice2 dice">
+                <img class="computer" name='dice1c' src="./img/Dice-1-b.svg.png" alt="">
+                <img class="computer" name='dice2c' src="./img/Dice-2-b.svg.png" alt="">
+                <img class="computer" name='dice3c' src="./img/Dice-3-b.svg.png" alt="">
+                <img class="computer" name='dice4c' src="./img/Dice-4-b.svg.png" alt="">
+                <img class="computer" name='dice5c' src="./img/Dice-5-b.svg.png" alt="">
+                <img class="computer" name='dice6c' src="./img/Dice-6-b.svg.png" alt="">
+            </div>
+        </div>
+        <div class="score">
+            <h1 id="message"></h1>
+            <h1 ><span id="playerScore">0</span> - <span id="computerScore">0</span></h1>
+            <h1>Player - Computer</h1>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

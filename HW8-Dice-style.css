@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&family=Roboto&family=Source+Sans+Pro:ital@1&family=Work+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #b2bec3;
+    font-family: 'Roboto', sans-serif; ;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.headline>h1{
+    margin: 5px;
+}
+.headline>h3{
+    margin: 15px;
+}
+
+#btn{
+    width: 100px;
+    height: 30px;
+    border: 3px solid palevioletred;
+    border-radius: 50px;
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+}
+
+#btn:active{
+    width: 120px;
+    height: 30px;
+    background-color: plum;
+}
+
+.dice{
+    border: 3px solid palevioletred;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 21px;
+    background-color: aliceblue;
+}
+
+.dices{
+    display: flex;
+    
+    
+    
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player{
+    width: 150px;
+    height: 150px;
+    display: none;
+    
+}
+
+.computer{
+    width: 150px;
+    height: 150px;
+    display: none;
+}
